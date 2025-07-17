@@ -6,3 +6,6 @@ working with branches
 using Github for version control
 ## How to use this Repo
 Just the explore the commits, code, and test features while learning
+## About This Repo
+
+This is a simple Git and GitHub learning project. Practice makes perfect!
