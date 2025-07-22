@@ -1,0 +1,6 @@
+# Ignore all .tmp files
+*.tmp
+# Ignore files my1ile.txt, myAile.txt
+my?ile.txt
+# Ignore log1.txt to log9.txt
+log[0-9].txt
