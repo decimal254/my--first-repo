@@ -1,0 +1,13 @@
+# Treat shell scripts as text with Unix line endings
+*.sh text eol=lf
+# Treat common image formats as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.webp binary
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+data/*.csv filter=lfs diff=lfs merge=lfs -text
+images/*.{png,jpg} filter=lfs diff=lfs merge=lfs -text
