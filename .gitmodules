@@ -1,0 +1,3 @@
+[submodule "my--first-repo"]
+	path = my--first-repo
+	url = https://github.com/decimal254/my--first-repo.git
